@@ -7,7 +7,7 @@ import static com.codeborne.selenide.Condition.exist;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
-public class GithubSelenideTestsExample {
+public class GithubSelenideTestsExample extends TestBase {
 
     @Test
     void selenideExampleTest(){
@@ -17,7 +17,6 @@ public class GithubSelenideTestsExample {
         $("[href*='eroshenkoam/allure-example']").click();
         $("#issues-tab").click();
         $("#issue_48_link").should(exist);
-
 
     }
 

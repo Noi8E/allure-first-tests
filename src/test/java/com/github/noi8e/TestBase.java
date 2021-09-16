@@ -6,6 +6,9 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 
 public class TestBase {
+    public final static String REPOSITORY = "eroshenkoam/allure-example";
+    public final static String GITHUBMAINPAGE = "https://github.com/";
+    public final static String ISSUE_LINK = "#issue_39_link";
 
     @BeforeAll
     static void sayHello() {
